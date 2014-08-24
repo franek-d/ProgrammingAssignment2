@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## this function is written to overcome the time consuming calculation of the innverse 
+## of a matrix by storing it in a constructed matrix-object 
 
-## Write a short comment describing this function
+## the function stores the inverse of a matrix using the setinverse command
+ # if it is already stored you can get it by typing m$getinverse()
 
 makeCacheMatrix <- function(x = matrix()) {
         xi <- NULL
